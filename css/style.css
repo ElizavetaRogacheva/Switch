@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4c4c4c;
+}
+
+.main-container {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #f1c;
+}
+
+.main-header {
+    background-color: transparent;
+}
+
+.main-logo {
+    text-decoration: none;
+}
+
+.logo-top {
+    margin: 0;
+    font-size: 32px;
+    line-height: 98px;
+    color: #f1cdb3;
+}
+
+.logo-bottom {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 57px;
+    color: #ffffff;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu-item a {
+    text-decoration: none;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.main-menu-item a:hover,
+.main-menu-item a:focus,
+.current {
+    border-bottom: 3px solid #f1cdb3;
+}
+
+.main-menu-item a:active {
+    opacity: 0.7;
+}
