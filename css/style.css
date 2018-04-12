@@ -10,6 +10,7 @@ body {
     width: 1280px;
     margin: 0 auto;
     background-color: #f1c;
+    box-shadow: 0 0 20px 0 #c7c6c6;
 }
 
 .main-header {
@@ -112,4 +113,46 @@ body {
     background-color: #fddcc4;
     padding: 10px 32px;
     border-radius: 30px;
+}
+
+.content-area {
+    display: flex;
+    flex-direction: column;    
+}
+
+.info {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 80px 366px 90px 640px;
+}
+
+.text-area {
+    position: relative;
+}
+
+.text-area::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 308px;
+    background-image: url(../img/Pets.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    top: -15px;
+    left: -280px;
+}
+
+.text-area h2 {
+    margin: 0;
+    font-weight: normal;  
+    line-height: 30px;
+    padding-right: 60px;  
+    margin-bottom: 15px;    
+}
+
+.text-area p {
+    margin: 0;
+    font-size: 10px;
+    line-height: 15px;
 }
