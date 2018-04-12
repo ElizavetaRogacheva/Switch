@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: "Georgia", sans-serif;
     font-size: 15px;
-    line-height: 24px;
     color: #4c4c4c;
 }
 
@@ -14,7 +13,19 @@ body {
 }
 
 .main-header {
-    background-color: transparent;
+    background-color: #473932;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 38px 250px 180px;
+    
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 150px;
 }
 
 .main-logo {
@@ -23,16 +34,17 @@ body {
 
 .logo-top {
     margin: 0;
-    font-size: 32px;
-    line-height: 98px;
+    font-size: 22px;
+    line-height: 22px;
     color: #f1cdb3;
+    margin-bottom: 5px;
 }
 
 .logo-bottom {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 57px;
+    font-size: 10px;
+    line-height: 10px;
     color: #ffffff;
 }
 
@@ -40,18 +52,27 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
 }
 
 .main-menu-item a {
     text-decoration: none;
-    line-height: 29px;
+    font-size: 10px;
+    line-height: 14px;
     color: #ffffff;
+    margin-right: 20px;
+}
+
+.main-menu-item:last-child a {
+    margin: 0;
 }
 
 .main-menu-item a:hover,
 .main-menu-item a:focus,
 .current {
-    border-bottom: 3px solid #f1cdb3;
+    border-bottom: 2px solid #f1cdb3;
 }
 
 .main-menu-item a:active {
@@ -59,21 +80,36 @@ body {
 }
 
 .promo {
-    height: 925px;
-    background-image: url(../img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 320px;
+
 }
 
 .promo h1 {
     margin: 0;
-    font-size: 44px;
+    font-size: 30px;
     color: #ffffff;
-    line-height: 57px;
+    line-height: 45px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-right: 50px;
 }
 
 .promo p {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 24px;
     color: #ffffff;
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: 25px;
+    line-height: 17px;
+}
+
+.promo a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: #3a3939;
+    font-size: 12px;
+    background-color: #fddcc4;
+    padding: 10px 32px;
+    border-radius: 30px;
 }
