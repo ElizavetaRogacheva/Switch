@@ -8,7 +8,7 @@ body {
 }
 
 .main-container {
-    width: 1920px;
+    width: 1280px;
     margin: 0 auto;
     background-color: #f1c;
 }
@@ -56,4 +56,24 @@ body {
 
 .main-menu-item a:active {
     opacity: 0.7;
+}
+
+.promo {
+    height: 925px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.promo h1 {
+    margin: 0;
+    font-size: 44px;
+    color: #ffffff;
+    line-height: 57px;
+}
+
+.promo p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    color: #ffffff;
 }
