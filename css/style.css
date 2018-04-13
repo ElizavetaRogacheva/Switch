@@ -378,6 +378,55 @@ body {
     background-repeat: no-repeat;
 }
 
+.donation {
+    background-color:#f6f6f6;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    background-image: url(../img/Dog.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: 250px 55px;
+}
+
+.donation-info {
+    margin-left: 650px;
+    margin-right: 400px;
+
+}
+
+.donation-info h2 {
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.card-number {
+    width: 150px;
+    font-size: 12px;
+    background-color: #fddcc4;
+    padding: 10px 10px 10px 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.card-number::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 24px;
+    left: 12px;
+    top: 5px;
+    background-image: url(../img/credit-card.png);
+    background-repeat: no-repeat;
+}
+
+.donation-text {
+    font-size: 10px;
+}
+
+
+
 
 
 
