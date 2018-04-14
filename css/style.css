@@ -498,6 +498,29 @@ body {
     background-size: contain;
 }
 
+.page-header {
+    padding: 20px 250px;
+    background-color: #fafafa;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page-logo  {
+    text-decoration: none;
+}
+
+.page-logo p {
+    color: #545454;
+}
+
+.page-header a {
+    color: #545454;
+}
+
 
 
 
