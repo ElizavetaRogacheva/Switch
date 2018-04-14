@@ -10,7 +10,6 @@ body {
     width: 1280px;
     margin: 0 auto;
     box-shadow: 0 0 20px 0 #c7c6c6;
-    background-color: #f1c;
     overflow: hidden;
 }
 
@@ -589,6 +588,104 @@ body {
 
 .pagination-item-current a {
     background-color: #fddcc4;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    background-color: #fafafa;
+    top: 120px;
+    width: 650px;
+    padding: 10px;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-325px);
+    box-shadow: 0 0 20px 0 #c7c6c6;
+    display: none;
+}
+
+.modal img {
+    border-radius: 5px;
+}
+
+.modal-info {
+    margin-left: 30px;
+}
+
+.modal-info h2 {
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.modal-info p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.breed {
+    font-size: 18px;
+}
+
+.modal-info-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-info-list-item {
+    margin-left: 15px;
+    position: relative;
+}
+
+.modal-info-list-item::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: #f1cdb3;
+    left: -15px;
+    top: 5px;
+}
+
+.modal-info-list-item span {
+    font-weight: bold;
+}
+
+.modal-close {
+    cursor: pointer;
+    position: absolute;
+    font-size: 0px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid #f1cdb3;
+    background-color: transparent;
+    left: 680px;
+    top: -25px;
+}
+
+.modal-close:hover {
+    background-color: #f1cdb3;
+}
+
+.modal-close::before,
+.modal-close::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #303030;
+    left: 8px;
+    top: 14px;
+}
+
+.modal-close::before {
+    transform: rotate(45deg);
+}
+
+.modal-close::after {
+    transform: rotate(-45deg);
 }
 
 
