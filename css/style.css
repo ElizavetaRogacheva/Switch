@@ -200,7 +200,7 @@ body {
 }
 
 .pet-list-item:first-child {
-    margin: 0;
+    margin-left: 0;
 }
 
 .pet-list-item img {
@@ -521,7 +521,72 @@ body {
     color: #545454;
 }
 
+.pet-gallery {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 210px;
+}
 
+.pet-gallery h2 {
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.our-pets-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.our-pets-list li {
+    margin-bottom: 20px;
+}
+
+.our-pets-list li:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.pagination-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.pagination-item {
+    text-align: center;
+}
+
+.pagination-item a {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #fddcc4;
+    width: 16px;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #545454;
+}
+
+.pagination-item a:hover {
+    background-color: #fddcc4;
+}
+
+.pagination-item a:active {
+    opacity: 0.6;
+}
+
+.pagination-item-current a {
+    background-color: #fddcc4;
+}
 
 
 
