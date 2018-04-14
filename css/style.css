@@ -591,7 +591,6 @@ body {
 }
 
 .modal {
-    display: flex;
     position: fixed;
     background-color: #fafafa;
     top: 120px;
@@ -602,6 +601,10 @@ body {
     transform: translateX(-325px);
     box-shadow: 0 0 20px 0 #c7c6c6;
     display: none;
+}
+
+.modal-container {
+    display: flex;
 }
 
 .modal img {
@@ -687,6 +690,11 @@ body {
 .modal-close::after {
     transform: rotate(-45deg);
 }
+
+.modal-show {
+    display: block;
+}
+
 
 
 
