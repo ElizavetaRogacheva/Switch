@@ -10,6 +10,7 @@ body {
     width: 1280px;
     margin: 0 auto;
     box-shadow: 0 0 20px 0 #c7c6c6;
+    background-color: #f1c;
 }
 
 .main-header {
