@@ -644,6 +644,7 @@ body {
 
 .modal-info {
     margin-left: 30px;
+    width: 300px;
 }
 
 .modal-info h2 {
