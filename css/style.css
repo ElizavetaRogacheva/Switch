@@ -9,7 +9,6 @@ body {
 .main-container {
     width: 1280px;
     margin: 0 auto;
-    background-color: #f1c;
     box-shadow: 0 0 20px 0 #c7c6c6;
 }
 
@@ -425,6 +424,77 @@ body {
     font-size: 10px;
 }
 
+.main-footer {
+    background-color: #473932;
+    background-image: url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 250px;
+    padding-bottom: 55px;
+}
+
+.contacts-area{
+   width: 200px;
+}
+
+.address-area {
+    width: 200px;
+    margin-left: 80px;
+}
+
+.main-footer h2 {
+    margin: 0;
+    color: #ffffff;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.email,
+.telephone,
+.address {
+    font-size: 12px;
+    color: #f1cdb3;
+    margin: 0;
+    padding-left: 40px;
+    position: relative;
+}
+
+.main-footer p::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 24px;
+    left: 1px;
+    top: 1px;
+}
+
+.email {
+    margin-bottom: 35px;
+}
+
+.address-first {
+    margin-bottom: 21px;
+}
+
+.email::before {
+    background-image: url(../img/envelope.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.telephone::before {
+    background-image: url(../img/telephone.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.address::before {
+    background-image: url(../img/pin.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 
