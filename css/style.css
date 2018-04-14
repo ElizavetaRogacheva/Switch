@@ -245,16 +245,16 @@ body {
 
 .switch-back {
     margin-right: 50px;
-    background-image: url(../img/long-left-arrow.svg);
+    background-image: url(../img/long-left-arrow.png);
     background-repeat: no-repeat;
-    background-position: 8px 9px;
+    background-position: 9px 13px;
 }
 
 .switch-forward {
     margin-left: 50px;
-    background-image: url(../img/long-right-arrow.svg);
+    background-image: url(../img/long-right-arrow.png);
     background-repeat: no-repeat;
-    background-position: 8px 9px;
+    background-position: 9px 13px;
 }
 
 .switch:hover {
