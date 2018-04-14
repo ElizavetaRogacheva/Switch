@@ -26,5 +26,4 @@ CharlyButton.addEventListener("click", function (evt) {
 ButtonCharlyClose.addEventListener("click", function (evt) {
     evt.preventDefault();
     ModalCharly.classList.remove("modal-show");
-
 })
